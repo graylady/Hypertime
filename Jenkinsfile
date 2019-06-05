@@ -20,7 +20,7 @@ pipeline {
         }
         stage('Test') { 
             steps {
-                sh 'cd hypertime-frontend && npm run test && cd ..' 
+                sh 'cd hypertime-frontend && npm run test' 
                
             }
         }   
